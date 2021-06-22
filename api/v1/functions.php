@@ -71,21 +71,20 @@ function encodeJson($record, $json_arr){
   return $record;
 }
 
-/*function mail_applicant($mail, $applicant){
+function mail_applicant($mail, $applicant){
 	$app_no = $applicant['application_no'];
-	$loan_type = $applicant['loan_type'];
-	$app_name = $applicant[$loan_type]->name;
-	$app_email = $applicant[$loan_type]->email;
+	$app_name = $applicant['surname'] . ' '. $applicant['firstname'];
+		$app_email = $applicant['email'];
 	// $app_name = 'Ololade James';
 	// $app_email = 'lekanojulowo@gmail.com';
 	
 		
-	$host = 'mail.fethiobgyn.com';
-	$username = 'meda@fethiobgyn.com';
-	$passwd   = 'mailmeda2020';
-	$mailfrom = 'meda@fethiobgyn.com';
-	$sendername = 'Ekiti State Microfinance and Enterprise Development Agency';
-	$img_link = 'meda.fethiobgyn.com/assets/images/';
+	$host = 'mail.kinplusgroup.com';
+	$username = 'internship@kinplusgroup.com';
+	$passwd   = 'kinplus_internship';
+	$mailfrom = 'internship@kinplusgroup.com';
+	$sendername = 'Kinplus Technologies Internship';
+	$img_link = 'https://kinplusgroup.com/logo.png';
 	// $img_link = '../assets/images/';
 	// $mail->SMTPDebug = 3;                            // Enable verbose debug output
 
@@ -119,7 +118,7 @@ function encodeJson($record, $json_arr){
 				text-align: center;
 			}
 			.thm-text {
-				color:  #ff5722;
+				color:  rgb(2, 33, 68);
 			}
 			.bg-dark {
 				background-color:  #000;
@@ -149,26 +148,26 @@ function encodeJson($record, $json_arr){
         color: blue;
       }
 		</style>
-		<title>Application Submitted Successfully</title>
+		<title>Kinplus Technologies Internship</title>
 		</head>
 		<body>
-			<header class="bg-dark text-center">
-				<img src="'.$img_link.'logo.png" alt="MEDA LOGO">
-				<h4 class="thm-text">Ekiti State Microfinance and Enterprise Development Agency</h4>
+			<header class="text-center">
+				<img src="'.$img_link.'" alt="Kinplus Technologies">
+				<h4 class="thm-text">Kinplus Technologies Internship Program</h4>
 			</header>
 			<main class="container">
 				<h4>Dear '.ucwords($app_name).',</h4>
 
-				<p>Your application for the Ekiti State Microfinance and Enterprise Development Agency (MEDA) loan has been submitted successfully.</p> 
+				<p>Your application for the Kinplus Technologies Internship/Training program has been submitted successfully.</p> 
 				<p>Your <b>Application Number </b> is: <b class="thm-text">'. $app_no .'</b>.</p>
 				<p>Thank you.</p>
-		<h4><b>Ekiti MEDA Team</b></h4>
+		<h4><b>Internship Team</b></h4>
 			</main>
 			</body>
 		</html>
 
     ';
-		$mail->AltBody = "Your application for the Ekiti State Microfinance and Enterprise Development Agency (MEDA) loan has been submitted successfully. Your Application Number is: ".$app_no.". Thank you.";
+		$mail->AltBody = "Your application for the Kinplus Technologies Internship/Training program has been submitted successfully. Your Application Number is: ".$app_no.". Thank you.";
 
     if(!$mail->send()) {
         $msg = 'Mail could not be sent.';
@@ -182,6 +181,7 @@ function encodeJson($record, $json_arr){
     // echo $mail->Body;
 	}
 
+/*
 function message_applicant($applicant){
 	$loan_type = $applicant['loan_type'];
 	$message = 'Your application to Ekiti MEDA has been submitted successfuly. Application No is: '. $applicant['application_no'];

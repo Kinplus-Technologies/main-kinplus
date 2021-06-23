@@ -161,7 +161,7 @@ function mail_applicant($mail, $applicant){
 				<p>Your application for the Kinplus Technologies Internship/Training program has been submitted successfully.</p> 
 				<p>Your <b>Application Number </b> is: <b class="thm-text">'. $app_no .'</b>.</p>
 				<p>Thank you.</p>
-		<h4><b>Internship Team</b></h4>
+		<h4><b>Kinplus</b></h4>
 			</main>
 			</body>
 		</html>

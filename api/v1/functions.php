@@ -84,7 +84,7 @@ function mail_applicant($mail, $applicant){
 	$passwd   = 'kinplus_internship';
 	$mailfrom = 'internship@kinplusgroup.com';
 	$sendername = 'Kinplus Technologies Internship';
-	$img_link = 'https://kinplusgroup.com/logo.png';
+	$img_link = 'https://kinplusgroup.com/img/logo.png';
 	// $img_link = '../assets/images/';
 	// $mail->SMTPDebug = 3;                            // Enable verbose debug output
 

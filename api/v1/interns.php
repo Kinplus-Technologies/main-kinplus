@@ -54,7 +54,7 @@ switch($method){
 			$value = ":id, :application_no, :surname, :firstname, :middlename, :gender, :email, :phoneno, :program, :discipline, :qualification, :religion, :resident_address, :passport, :cv, :laptop, :available";
 
 			$res = insertRecord($table, $column, $value, $data);
-				if ($res) {
+		/* 		if ($res) {
 					$mailsent = '';
 					$maildata = mail_applicant($mail, $data);
 					if($maildata['mailsent']){
@@ -63,10 +63,9 @@ switch($method){
 						$mailsent="Email Failed";
 					}
 					// $smsdata = message_applicant($applicant)?  'Success Messaging' : 'sms failed';				
-				}
-            
-			echo $res ? json_encode(['ok' => 1, 'message' => $mailsent, 'application_no' => $application_no]) : json_encode(['ok' => 0]);
-
+				} */
+            // 'message' => $mailsent,
+			echo $res ? json_encode(['ok' => 1, 'application_no' => $application_no]) : json_encode(['ok' => 0]);
 		break;
 
 	case 'PUT': 

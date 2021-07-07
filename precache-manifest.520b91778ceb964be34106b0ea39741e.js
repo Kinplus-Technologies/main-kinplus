@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/admin~contact~dashboard~interns.38fb335c.css"
   },
   {
-    "revision": "b4bb6a0722961c427548",
+    "revision": "267975150458f141a827",
     "url": "/css/app.be39c07f.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/dashboard~interns.7837fa87.css"
   },
   {
-    "revision": "6a33e4d9d6c85bf950db",
+    "revision": "62024d108c07652cbec9",
     "url": "/css/interns.6325b0e3.css"
   },
   {
@@ -156,10 +156,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/materialdesignicons-webfont.7a44ea19.woff2"
   },
   {
-    "revision": "8efc754a02774d36360f746e8c5b63f4",
-    "url": "/img/UI.png"
-  },
-  {
     "revision": "b61bce7364774741a8c3a5b8abdd8a3a",
     "url": "/img/anime.jpg"
   },
@@ -176,11 +172,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/logo.png"
   },
   {
-    "revision": "d10f53eda898df94099154ec884eeb4f",
-    "url": "/img/softcode.png"
+    "revision": "78fcda8586fbc1647ce636278181be94",
+    "url": "/img/softcode.jpg"
   },
   {
-    "revision": "1beb9fbb7307066bee142fb470024ec3",
+    "revision": "0195c3762a373bfd9c451b19986fd6c7",
+    "url": "/img/ui.jpg"
+  },
+  {
+    "revision": "d9b829cda5855ab80e4c7d771568eaac",
     "url": "/index.html"
   },
   {
@@ -196,8 +196,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/admin~contact~dashboard~interns.0c0c5b8a.js"
   },
   {
-    "revision": "b4bb6a0722961c427548",
-    "url": "/js/app.dec253cf.js"
+    "revision": "267975150458f141a827",
+    "url": "/js/app.fcd1055b.js"
   },
   {
     "revision": "6e2bfed778ef25617773",
@@ -216,8 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/dashboard~interns.bbf9c046.js"
   },
   {
-    "revision": "6a33e4d9d6c85bf950db",
-    "url": "/js/interns.83767512.js"
+    "revision": "62024d108c07652cbec9",
+    "url": "/js/interns.c4eb0170.js"
   },
   {
     "revision": "dc0202ba4ef56eba39db",

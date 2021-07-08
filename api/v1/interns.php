@@ -49,9 +49,9 @@ switch($method){
 		$last_no += 1; // increase last number
 		$application_no = $data['application_no'] = 'KP21/B2'.$last_no; // generate application number e.g KP21/B21
 		updateRecord('setup', "interns_last_no=:last_no", 1, ['last_no' => $last_no]); // update last number
-			$column = "id,application_no,surname,firstname,middlename,gender,email,phoneno,program,discipline,qualification,religion,resident_address,passport,cv,laptop,available";
+			$column = "id,application_no,surname,firstname,middlename,gender,dob,email,phoneno,program,discipline,qualification,religion,resident_address,passport,cv,laptop,available";
 
-			$value = ":id, :application_no, :surname, :firstname, :middlename, :gender, :email, :phoneno, :program, :discipline, :qualification, :religion, :resident_address, :passport, :cv, :laptop, :available";
+			$value = ":id, :application_no, :surname, :firstname, :middlename, :gender, :dob, :email, :phoneno, :program, :discipline, :qualification, :religion, :resident_address, :passport, :cv, :laptop, :available";
 
 			$res = insertRecord($table, $column, $value, $data);
 		/* 		if ($res) {

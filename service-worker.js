@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5a406b85a075ef6329f480b046a233f1.js"
+  "/precache-manifest.405113766c594e9b1421cdd0bd69879c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "kinplus"});
